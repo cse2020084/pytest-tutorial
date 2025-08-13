@@ -9,4 +9,5 @@ class Employee():
         return True
     
     def get_record(self,id):
-        return self.get(id,'Unknown')
+        return self.records.get(id,'Unknown')
+    
